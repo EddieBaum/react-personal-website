@@ -1,0 +1,28 @@
+.gameMenuContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.gameMenuBox {
+    display: flex; 
+    border: 1px solid white; 
+    width: 200px;
+    height: 100px; 
+    margin: 0 25px; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6;
+    border-radius: 9px;
+}
+
+.gameMenuBox:hover {
+    background-color: black;
+    border: 1px solid rgb(175, 255, 2);
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}

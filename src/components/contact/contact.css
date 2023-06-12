@@ -1,0 +1,99 @@
+.contact-parent-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#698cff,#003572);
+    height: 100vh;
+    width: 100%;
+}
+
+
+.left-half {
+    height: 82%;
+    width: 44%; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   
+    background-color: #1b1d47;
+    padding: 20px; 
+    border-top: 1px solid white; 
+    border-bottom: 1px solid white; 
+    border-left: 1px solid white;
+
+    margin-top: 5%;
+
+}
+
+.right-half {
+    display: flex;
+    height: 82%;
+    width: 44%;
+    background-image: url('../../images/eddieFlags.jpeg');
+    background-position: calc(50% - 5%)center;
+    background-size: 210%; 
+    border-top: 1px solid white; 
+    border-bottom: 1px solid white; 
+    border-right: 1px solid white;
+    margin-top: 5%; 
+
+
+}
+/* #71EAC6 */
+
+.contact-h1 {
+    color: #71EAC6;
+    font-size: 5.2rem;  
+    display: flex;
+    margin: 15px auto;
+    text-align: center;
+    
+}
+
+.paragraph-text {
+ text-align: center;
+ font-size: 1.2rem;
+}
+
+#cheers-tag {
+    font-size: 1.8rem;
+    margin: 5px auto;
+    font-family: 'Fasthand', cursive;;
+}
+
+
+.contact-icon {
+    margin: 15px 0px 0px 0px; 
+    font-size: 2rem;
+    
+}
+
+.info-bubble {
+
+    border-radius: 2px;
+    width: 70%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #1b1d47; 
+    margin: 0 auto; 
+    padding: 10px;
+
+}
+
+#info-bubble-parent:hover {
+    border: 1px solid white; 
+
+}
+
+
+
+
+
+
+
+
+
+
