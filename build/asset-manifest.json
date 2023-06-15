@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-personal-website/static/css/main.ba732ad4.css",
+    "main.js": "/react-personal-website/static/js/main.c5e28204.js",
+    "static/media/eddieStoneWall.jpeg": "/react-personal-website/static/media/eddieStoneWall.603931811c2bd42afbcb.jpeg",
+    "static/media/homeScreenShot.jpeg": "/react-personal-website/static/media/homeScreenShot.f8b0cfde431edb00324a.jpeg",
+    "static/media/eddieFlags.jpeg": "/react-personal-website/static/media/eddieFlags.a25287b97b29305bb99c.jpeg",
+    "static/media/eddiePlantWall.jpeg": "/react-personal-website/static/media/eddiePlantWall.1464a385ad9eba6927e9.jpeg",
+    "static/media/rendezvousPreview.jpeg": "/react-personal-website/static/media/rendezvousPreview.400aa598ed965b687ce3.jpeg",
+    "static/media/tttPreview.jpeg": "/react-personal-website/static/media/tttPreview.3f35dd4c932e67f98626.jpeg",
+    "static/media/rpsPreview.jpeg": "/react-personal-website/static/media/rpsPreview.f8a409188a50c73bf9f0.jpeg",
+    "index.html": "/react-personal-website/index.html",
+    "main.ba732ad4.css.map": "/react-personal-website/static/css/main.ba732ad4.css.map",
+    "main.c5e28204.js.map": "/react-personal-website/static/js/main.c5e28204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba732ad4.css",
+    "static/js/main.c5e28204.js"
+  ]
+}
