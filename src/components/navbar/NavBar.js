@@ -41,7 +41,7 @@ const NavBar = () => {
           <CustomNavLink to="/portfolio" exact>Portfolio</CustomNavLink>
           </li>
           <li className="nav-item">
-          <CustomNavLink to="/blog" exact>Training</CustomNavLink>
+          <CustomNavLink to="/training" exact>Training</CustomNavLink>
           </li>
           <li className="nav-item">
           <CustomNavLink to="/contact" exact>Contact</CustomNavLink>

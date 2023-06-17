@@ -3,6 +3,7 @@ import NavBar from "./components/navbar/NavBar";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Porfolio";
 import About from "./components/about/About";
+import Training from "./components/training/Training"; 
 import Homepage from "./components/homepage/Homepage";
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/training" element={<Training />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
