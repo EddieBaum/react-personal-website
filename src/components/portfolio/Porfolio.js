@@ -1,5 +1,6 @@
 import React, { useState } from "react"; //START OF NEW CODE
 import BackBoxInfo from "./BackBoxInfo.js";
+import BackBoxInfoEx from "./BackBoxInfoEx.js"; 
 
 import "./portfolio.css";
 
@@ -8,7 +9,8 @@ const Portfolio = () => {
   const [flipBoxB, setFlipBoxB] = useState(false);
   const [flipBoxC, setFlipBoxC] = useState(false);
   const [flipBoxD, setFlipBoxD] = useState(false);
-  const [flipBoxE, setFlipBoxE] = useState(false); 
+  const [flipBoxE, setFlipBoxE] = useState(false);
+  const [flipBoxF, setFlipBoxF] = useState(false);
 
   const handleMouseClick = (boxId) => {
     switch (boxId) {
@@ -26,6 +28,10 @@ const Portfolio = () => {
         break;
       case 'E':
         setFlipBoxE(true); 
+        break;
+      case 'F':
+        setFlipBoxF(true);
+        break; 
       default:
         break;
     }
@@ -46,7 +52,10 @@ const Portfolio = () => {
         setFlipBoxD(false);
         break;
       case 'E':
-        setFlipBoxE(false); 
+        setFlipBoxE(false);
+        break; 
+      case 'F':
+        setFlipBoxF(false); 
       default:
         break;
     }
@@ -154,7 +163,26 @@ const Portfolio = () => {
             link="https://github.com/EddieBaum"
             style={getBoxStyle(!flipBoxE)}
           />
-        </div> 
+        </div>
+        <div
+          className="wrapper"
+          id="wrapperF"
+          onClick={() => handleMouseClick("F")}
+          onMouseLeave={() => handleMouseLeave("F")}
+        >
+          <div
+            className="front box"
+            id="boxFfront"
+            style={getBoxStyle(flipBoxF)}
+          ><ion-icon name="logo-reddit"></ion-icon></div>
+          <BackBoxInfoEx
+            backBoxClass="back box"
+            backBoxId="boxFback"
+            text="Reddit"
+            link="/redditApp"
+            style={getBoxStyle(!flipBoxF)}
+          />
+        </div>
       </div> 
     </div> 
   );

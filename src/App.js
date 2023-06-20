@@ -5,6 +5,7 @@ import Portfolio from "./components/portfolio/Porfolio";
 import About from "./components/about/About";
 import Training from "./components/training/Training"; 
 import Homepage from "./components/homepage/Homepage";
+import RedditApp from "./components/portfolio/reddit/RedditApp"; 
 
 
 import {
@@ -20,7 +21,7 @@ function App() {
   
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div className="App-container">
         <NavBar />
         <Routes>
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/training" element={<Training />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/redditApp" element={<RedditApp />} />
         </Routes>
       </div>
     </Router>
@@ -37,6 +39,8 @@ function App() {
 export default App;
 
 /* 
+ basename={process.env.PUBLIC_URL} *USE THIS FOR ROUTER PROPERY*
+
 import eddieWall from "./images/eddieWall.jpeg";
 import eddiePlantWall from "./images/eddiePlantWall.jpeg";
 import macDeskLamp from "./images/macDeskLamp.jpeg";
