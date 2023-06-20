@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'; 
 import './redditApp.css'; 
 
 const RedditApp = () => {
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://www.reddit.com/r/reactjs/top.json?limit=10")
+      .then((res) => {
+        setPosts(res.data.data.children.map(child => child.data));
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }, []);
+
   return (
     <div className='redditApp-parent-div'>
-      <h1>Reddit Light</h1>
-      <p>This application is a light version of Reddit with minimal bells and whistles. It's designed for simplicity and ease of use, focusing on core functionalities of browsing and interacting with posts.</p>
+      <h1>Top Posts from /r/reactjs</h1>
+      {posts.map((post, index) => (
+        <div key={index}>
+          <h2>{post.title}</h2>
+          <a href={`https://reddit.com${post.permalink}`}>Link to post</a>
+        </div>
+      ))}
     </div>
   );
-}
+};
 
 export default RedditApp;

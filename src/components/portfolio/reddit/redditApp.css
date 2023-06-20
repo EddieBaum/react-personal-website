@@ -1,5 +1,6 @@
 .redditApp-parent-div {
     color: white; 
+    font-size: .9rem;
     height: 100%;
     width: 100%; 
     display: flex; 
@@ -7,4 +8,5 @@
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(90deg,#698cff,#003572);
+  
 }

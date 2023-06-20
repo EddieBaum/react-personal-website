@@ -51,13 +51,13 @@ const Portfolio = () => {
       case "D":
         setFlipBoxD(false);
         break;
-      case 'E':
+      case "E":
         setFlipBoxE(false);
-        break; 
-      case 'F':
-        setFlipBoxF(false); 
-      default:
         break;
+      case "F":
+        setFlipBoxF(false);
+        break;
+      default:
     }
   };
 

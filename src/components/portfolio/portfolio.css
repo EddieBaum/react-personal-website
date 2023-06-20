@@ -15,7 +15,7 @@
 .square-container {
     display: flex;
     width: 90%;
-    height: 90%;
+    height: 87%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
@@ -25,6 +25,8 @@
     margin-top: 5%; 
     overflow: scroll;
 
+
+
 }
 
 /* ... other styles ... */
@@ -32,14 +34,14 @@
 .wrapper {
     position: relative;
     perspective: 2500px;
-    height: 46%;
+    height: 47%;
     width: 45%; 
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    margin: 15px; 
+    margin: 25px; 
     border: 2px solid white;
 
 }
