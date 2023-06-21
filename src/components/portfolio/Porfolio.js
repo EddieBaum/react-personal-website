@@ -141,7 +141,7 @@ const Portfolio = () => {
             backBoxClass="back box"
             backBoxId="boxDback"
             text="React, BrowswerRouter, Switch, useState and my face all in one place."
-            link="localhost:3000"
+            link="https://eddiebaum.github.io/react-personal-website/"
             style={getBoxStyle(!flipBoxD)}
           />
         </div>

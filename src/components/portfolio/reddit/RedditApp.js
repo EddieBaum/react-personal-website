@@ -8,7 +8,7 @@ const RedditApp = () => {
 
   useEffect(() => {
     axios
-      .get("https://www.reddit.com/r/reactjs/top.json?limit=10")
+      .get("https://www.reddit.com/r/Coronavirus/top.json?limit=10")
       .then((res) => {
         setPosts(res.data.data.children.map(child => child.data));
       })
@@ -19,7 +19,7 @@ const RedditApp = () => {
 
   return (
     <div className='redditApp-parent-div'>
-      <h1>Top Posts from /r/reactjs</h1>
+      <h1>Top Posts from COVID-19</h1>
       {posts.map((post, index) => (
         <div key={index}>
           <h2>{post.title}</h2>
