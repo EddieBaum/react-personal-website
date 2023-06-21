@@ -24,10 +24,10 @@ const Portfolio = () => {
       case "D":
         setFlipBoxD(true);
         break;
-      case 'E':
-        setFlipBoxE(true); 
-      default:
+      case "E":
+        setFlipBoxE(true);
         break;
+      default:
     }
   };
 
@@ -45,10 +45,10 @@ const Portfolio = () => {
       case "D":
         setFlipBoxD(false);
         break;
-      case 'E':
-        setFlipBoxE(false); 
-      default:
+      case "E":
+        setFlipBoxE(false);
         break;
+      default:
     }
   };
 
