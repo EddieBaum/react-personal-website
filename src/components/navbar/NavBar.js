@@ -32,19 +32,19 @@ const NavBar = () => {
   return (
     <nav className={`navbar ${visible ? 'visible' : ''}`}>
       <div className="container">
-        <NavLink className="navbar-name" to="/" exact>Edward Baum<span id='dotCom'>.com</span></NavLink>
+        <NavLink className="navbar-name" to="/" >Edward Baum<span id='dotCom'>.com</span></NavLink>
         <ul className="navbar-list">
           <li className="nav-item">
-            <CustomNavLink to="/about" exact>About Me</CustomNavLink>
+            <CustomNavLink to="/about" >About Me</CustomNavLink>
           </li>
           <li className="nav-item">
-          <CustomNavLink to="/portfolio" exact>Portfolio</CustomNavLink>
+          <CustomNavLink to="/portfolio" >Portfolio</CustomNavLink>
           </li>
           <li className="nav-item">
-          <CustomNavLink to="/training" exact>Training</CustomNavLink>
+          <CustomNavLink to="/training" >Training</CustomNavLink>
           </li>
           <li className="nav-item">
-          <CustomNavLink to="/contact" exact>Contact</CustomNavLink>
+          <CustomNavLink to="/contact" >Contact</CustomNavLink>
           </li>
         </ul>
       </div>
