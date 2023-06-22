@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-personal-website/static/css/main.4a9db7f0.css",
-    "main.js": "/react-personal-website/static/js/main.d76a7689.js",
+    "main.css": "/react-personal-website/static/css/main.7674ff1d.css",
+    "main.js": "/react-personal-website/static/js/main.04631a53.js",
     "static/media/eddieStoneWall.jpeg": "/react-personal-website/static/media/eddieStoneWall.603931811c2bd42afbcb.jpeg",
     "static/media/homeScreenShot.jpeg": "/react-personal-website/static/media/homeScreenShot.f8b0cfde431edb00324a.jpeg",
     "static/media/eddieFlags.jpeg": "/react-personal-website/static/media/eddieFlags.a25287b97b29305bb99c.jpeg",
@@ -10,11 +10,11 @@
     "static/media/tttPreview.jpeg": "/react-personal-website/static/media/tttPreview.3f35dd4c932e67f98626.jpeg",
     "static/media/rpsPreview.jpeg": "/react-personal-website/static/media/rpsPreview.f8a409188a50c73bf9f0.jpeg",
     "index.html": "/react-personal-website/index.html",
-    "main.4a9db7f0.css.map": "/react-personal-website/static/css/main.4a9db7f0.css.map",
-    "main.d76a7689.js.map": "/react-personal-website/static/js/main.d76a7689.js.map"
+    "main.7674ff1d.css.map": "/react-personal-website/static/css/main.7674ff1d.css.map",
+    "main.04631a53.js.map": "/react-personal-website/static/js/main.04631a53.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9db7f0.css",
-    "static/js/main.d76a7689.js"
+    "static/css/main.7674ff1d.css",
+    "static/js/main.04631a53.js"
   ]
 }
