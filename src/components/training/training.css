@@ -1,3 +1,5 @@
+
+
 .training-parent-div {
     color: white;
     height: 100%;
@@ -10,12 +12,11 @@
     background: linear-gradient(90deg, #698cff, #003572);
 }
 
-.five-columns-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    width: 100%;
-}
+.ml3, .ml4 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
 
 .column {
     flex: 1;
