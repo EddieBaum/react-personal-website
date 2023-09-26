@@ -93,3 +93,29 @@ border-bottom: 2px solid rgb(175, 255, 2);
   color: rgb(175, 255, 2);
 }
 
+
+
+/* styles for MOBILE PHONE */
+@media (max-width: 480px) {
+  :root {
+    font-size: 13px;
+  }
+
+  .nav-item {
+    margin-left: 1rem;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .container {
+    width: 99%;
+  }
+}
+

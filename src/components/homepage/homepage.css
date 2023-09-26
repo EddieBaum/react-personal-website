@@ -30,3 +30,42 @@
   }
 
 
+
+
+/* styles for MOBILE PHONES */
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 13px;
+  }
+
+
+  .homepage-container {
+    margin-bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 220%;
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/eddieStoneWall.jpeg'); 
+  }
+
+  .homepage-container h5 {
+    font-size: 1.5rem;
+    font-family: 'Handlee', cursive;
+    margin: 0;
+  }
+
+  .homepage-container h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+
+}
