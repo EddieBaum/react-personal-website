@@ -137,6 +137,18 @@ margin-bottom: 12px;
 }
 
 
+/* styles for MOBILE PHONE */
+@media (max-width: 480px) {
+    :root {
+      font-size: 12px;
+    }
+
+    * {
+        border: orange 1px solid;
+    }
+}
+
+
 
 
 
